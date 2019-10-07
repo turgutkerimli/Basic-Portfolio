@@ -1,0 +1,174 @@
+/* Navbar Style */
+
+nav{
+    padding: 0 !important;
+    border-bottom: #cccccc 2px solid;
+}
+.navbar-light{
+    background-color: #ffffff !important;
+}
+.container{
+    width: 960px !important;
+}
+#yourname_background{
+    background-color:#4aaaa5;
+    padding: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav div a h5{
+    margin-bottom: 0; 
+    color: white;
+    
+}
+#vertical_line{ 
+    border-right:#777777 1px solid;
+    border-left:#777777 1px solid;
+    height: 24px;
+    padding: 0px 8px 0px 8px;
+    margin-top: 8px;
+}
+
+/* Section Style for About page (index.html)*/
+
+section{
+    background-color: #ffffff;
+    width: 650px;
+    float: left;
+    margin-top: 20px;
+    padding: 20px;
+    border: #dddddd 1px solid;
+}
+
+section header h3, aside header h5{
+    color: #4aaaa5;
+    border-bottom:#dddddd 2px solid;
+    padding-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+#about_section_img{
+    height: 150px; 
+    width: 150px;
+    float: left;  
+    margin: 15px 20px 0px 0px;
+}
+.about_section_p{
+    text-align: justify; 
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about_section_p_pad{
+    padding-top: 10px;
+}
+
+/* Section Style for Portfolio page (portfolio.html)*/
+
+.row{
+    margin-top: 20px;
+    height: 285px;
+}
+section div div img{
+    height:285px;
+    width: 289px;
+    position: absolute
+}
+.subtitle_position{
+    position: relative;
+}
+.img_subtitle{
+    position: relative;
+    padding:13px; 
+    margin-bottom:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.subtitle{
+    height: 50px;
+    width: 100%;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+    left: 0%;
+    top: 80%;
+}
+
+/* Section Style for Contact page (contact.html)*/
+
+button{
+    background-color: #4aaaa5; 
+    border: 0px; 
+    color: white;
+    font-size: 14px;
+    padding: 5px 20px 5px 20px;
+}
+.bottom_margin{
+    margin-bottom: 20px;
+}
+input{
+    width: 100%;
+    height: 28px;
+    border: #dddddd 1px solid;
+}
+textarea{
+    width: 100%; 
+    height: 110px;
+    border: #dddddd 1px solid;
+}
+label{
+    color:#777777;
+}
+
+/* Aside Style */
+
+aside{
+    background-color: #ffffff;
+    width: 270px;
+    float: right;
+    margin-top: 20px;
+    padding: 20px;
+    border: #dddddd 1px solid;
+}
+a img{
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+}
+
+/* Footer Style */
+
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 0 auto;
+}
+.footer {
+    flex-shrink: 0;
+    height: 60px;
+    background-color: #666666;
+    border-top: 5px #4aaaa5 solid;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+#footer_p{
+    margin-top: 20px;;
+    font-size: 12px;
+}
+
+/* Font Color & Background Image & Placeholder Font Size */
+
+.font_color{
+    color:#777777;
+}
+body {
+    background-image: url("../images/dust_scratches.png");
+}
+::placeholder{
+    font-size: 13px;
+    padding: 1px;
+}
